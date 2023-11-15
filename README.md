@@ -1,3 +1,3 @@
 # Ansible-config-mgt
 
-Confirm Jenkins is building automatically
+Verify Jenkins is building automatically
