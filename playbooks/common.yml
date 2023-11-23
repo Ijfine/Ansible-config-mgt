@@ -44,4 +44,4 @@
 
     - name: set timezone
       timezone:
-      name: GMT/London        
+      name: Africa/Nigeria       
