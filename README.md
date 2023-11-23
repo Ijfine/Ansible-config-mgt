@@ -198,7 +198,7 @@ By doing the above, Jenkins will automatically build artifacts to `/var/lib/jenk
 To run your playbook, go to your Jenkins-Ansible instance in your terminal and run the below command:
 
 ```python
-ansible-playbook -i /var/lib/jenkins/jobs/ansible/builds/<build_number>/archive/inventory/dev.yml /var/lib/jenkins/jobs/ansible/builds/4/archive/playbooks/common.yml
+ansible-playbook -i /var/lib/jenkins/jobs/ansible/builds/<build_number>/archive/inventory/dev.yml /var/lib/jenkins/jobs/ansible/builds/<build_number>/archive/playbooks/common.yml
 ```
 **Note:** Ensure to replace the build_number with the actual latest number of your Jenkins builds.
 

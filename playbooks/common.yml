@@ -44,4 +44,5 @@
 
     - name: set timezone
       timezone:
-      name: Africa      
+      name: Africa/Abuja
+         
