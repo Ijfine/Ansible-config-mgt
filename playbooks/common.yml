@@ -44,4 +44,4 @@
 
     - name: set timezone
       timezone:
-      name: Africa/Nigeria       
+      name: Africa      
