@@ -28,7 +28,7 @@
         name: wireshark
         state: latest
 
-- name: create directory, file and set timezone on all servers
+- name: create directory, file
   hosts: webservers, nfs, db, lb
   become: yes
   tasks: 
@@ -41,8 +41,3 @@
       file:
         path: /home/sample/ansible.txt
         state: touch
-
-    - name: set timezone
-      timezone:
-      name: Africa/Abuja
-         
