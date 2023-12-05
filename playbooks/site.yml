@@ -3,6 +3,6 @@
 - import_playbook: ../static-assignments/common.yml
 
 - hosts: uat-webservers
-- import_playbook: ../inventory/uat.yml
+- import_playbook: ../static-assignments/uat-webservers.yml
 
 
