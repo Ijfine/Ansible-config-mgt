@@ -1,9 +1,11 @@
 # Ansible-Automate Project
 
+This is testing that Jenkins build jo automatically.
+
 ## Prerequisites
 - Have a cloud service provider such as AWS.
 - Launch an instance using Ubuntu as the AMI, install and configure Jenkins on the instance.
-- Have a Github account and create a new repository.
+- Have a Github account and create a new repository. 
 - Launch four instances using RedHat as the AMI, One instance to serve as NFS server, two instances as webservers and one as a database server.
 - Launch an instance with Ubuntu as the AMI which will serve as a loadbalancer.
 
